@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase Shift — Engineering Research Initiative</title>
+    <link rel="icon" type="image/png" href="https://i.ibb.co/s9g6chXV/github-1051377.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <div class="logo-mark">
+                    <img src="logo.png" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                    <span class="logo-fallback">Φ</span>
+                </div>
+                <span class="logo-name">Phase Shift</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#mission">Mission</a>
+                <a href="#cohort">Cohort</a>
+                <a href="#archive">Archive</a>
+                <a href="#founders">Founders</a>
+            </div>
+
+            <div style="display:flex;align-items:center;gap:0.6rem;">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" id="theme-icon"></i>
+                </button>
+                <button id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+                    <i data-lucide="menu" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+        <button id="mobile-close" aria-label="Close menu">
+            <i data-lucide="x"></i>
+        </button>
+        <nav class="mobile-nav">
+            <a href="#mission" class="mobile-link">Mission</a>
+            <a href="#cohort" class="mobile-link">Cohort</a>
+            <a href="#archive" class="mobile-link">Archive</a>
+            <a href="#founders" class="mobile-link">Founders</a>
+        </nav>
+    </div>
+
+    <section id="mission" class="hero">
+        <div class="container">
+            <span class="label">Chhattisgarh · Est. 2026</span>
+            <h1>Bring back<br><em>Glory.</em></h1>
+            <p class="hero-sub">
+                You choose science. Are you ready to be a scientist?
+            </p>
+            <div class="hero-actions">
+                <a href="#archive" class="btn-primary">Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="pillars">
+        <div class="container pillars-grid">
+            <div class="pillar">
+                <span class="pillar-num">01</span>
+                <h3>Reading Reports</h3>
+                <p>Learn how to read and understand technical reports.</p>
+            </div>
+            <div class="pillar">
+                <span class="pillar-num">02</span>
+                <h3>Technical Writing</h3>
+                <p>Get hands on with writing and development of reports and papers.</p>
+            </div>
+            <div class="pillar">
+                <span class="pillar-num">03</span>
+                <h3>Portfolio Legacy</h3>
+                <p>Every member gets their own hosted portfolio page  — a permanent, verifiable record of their work.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── COHORT SECTION ── -->
+    <section id="cohort" class="cohort">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Cohort 01 · 5 Members · 2026</span>
+                <h2>The people doing<br><em>the work.</em></h2>
+            </div>
+
+            <div class="cohort-grid">
+
+                <a href="Dharana.html" class="cohort-card">
+                    <div class="cohort-photo">
+                        <img src="Dharana.webp" alt="Dharana Sahu" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="cohort-photo-fallback">
+                            <i data-lucide="user" style="width:24px;height:24px;"></i>
+                        </div>
+                    </div>
+                    <div class="cohort-info">
+                        <div class="cohort-top">
+                            <span class="cohort-year-tag">2nd Year</span>
+                        </div>
+                        <h3>Dharana Sahu</h3>
+                        <p>Core electrical systems enthusiast. Approaches circuits with genuine curiosity to understand, not just to pass.</p>
+                        <span class="cohort-link">View profile ↗</span>
+                    </div>
+                </a>
+
+                <a href="Satyanarayan.html" class="cohort-card">
+                    <div class="cohort-photo">
+                        <img src="Satyanarayan.webp" alt="Satyanarayan" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="cohort-photo-fallback">
+                            <i data-lucide="user" style="width:24px;height:24px;"></i>
+                        </div>
+                    </div>
+                    <div class="cohort-info">
+                        <div class="cohort-top">
+                            <span class="cohort-year-tag">2nd Year</span>
+                        </div>
+                        <h3>Satyanarayan Nishad</h3>
+                        <p>Goal-oriented and disciplined. Focused on building practical depth alongside clear long-term ambitions.</p>
+                        <span class="cohort-link">View profile ↗</span>
+                    </div>
+                </a>
+
+                <a href="Deepti.html" class="cohort-card">
+                    <div class="cohort-photo">
+                        <img src="Deepti.webp" alt="Deepti Verma" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="cohort-photo-fallback">
+                            <i data-lucide="user" style="width:24px;height:24px;"></i>
+                        </div>
+                    </div>
+                    <div class="cohort-info">
+                        <div class="cohort-top">
+                            <span class="cohort-year-tag">2nd Year</span>
+                        </div>
+                        <h3>Deepti Verma</h3>
+                        <p>Motivated to grow beyond the curriculum. Came to Phase Shift to build real confidence in technical communication.</p>
+                        <span class="cohort-link">View profile ↗</span>
+                    </div>
+                </a>
+
+                <a href="Sana.html" class="cohort-card cohort-card">
+                    <div class="cohort-photo">
+                        <img src="Sana.webp" alt="Sana" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="cohort-photo-fallback">
+                            <i data-lucide="user" style="width:24px;height:24px;"></i>
+                        </div>
+                    </div>
+                    <div class="cohort-info">
+                        <div class="cohort-top">
+                            <span class="cohort-year-tag cohort-year-tag--first">1st Year</span>
+                            <span class="cohort-early">Starting early</span>
+                        </div>
+                        <h3>Sana Fatima Sheikh</h3>
+                        <p>Interested in EV and battery systems from the very start — joining Phase Shift before most even consider what research looks like.</p>
+                        <span class="cohort-link">View profile ↗</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="archive" class="archive">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">Work Archive</span>
+                <h2>What we've built</h2>
+            </div>
+
+            <div class="projects">
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="First Principles Of Power.webp" alt="First Principles of Power">
+                        <span class="project-tag">Book</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>First Principles of Power</h3>
+                        <p>This book is a practical guide that transforms everyday electrical infrastructure—especially within a campus—into a real-world learning laboratory to understand the fundamental principles of power generation, transmission, and distribution.</p>
+                        <div class="tags">
+                            <span>Power Systems</span>
+                            <span>Field Research</span>
+                        </div>
+                        <a href="https://sdee001.github.io/EE-Collective/" target="_blank" class="project-link">View ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img">
+                        <img src="Ascentia SCI Lab.webp" alt="Ascentia SCI Lab">
+                        <span class="project-tag">Book</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Ascentia SCI Lab</h3>
+                        <p>This book is a structured, beginner-friendly guide that builds a strong foundation in electrical and electronics simulation by connecting theory with practical modeling using tools like Scilab and Xcos, enabling students to understand, analyze, and design real-world systems with confidence.</p>
+                        <div class="tags">
+                            <span>Scilab / Xcos</span>
+                            <span>Open Access</span>
+                        </div>
+                        <a href="https://sdee001.github.io/EE-Collective/" target="_blank" class="project-link">View ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-img project-img--dark">
+                       <img src="Apex Security.webp" alt="Apex Security">
+                        <span class="project-tag">Research</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Apex Security</h3>
+                        <p>An IoT smart safety jacket for electrical line workers — ESP32-based with fall detection, heart rate, thermal sensing, and magnetic field alerts. Built to protect substation maintainers.</p>
+                        <div class="tags">
+                            <span>IoT</span>
+                            <span>Worker Safety</span>
+                        </div>
+                        <a href="https://the-joint-thesis.github.io/Apex-Security/" target="_blank" class="project-link">View ↗</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="founders" class="founders">
+        <div class="container">
+            <div class="section-header">
+                <span class="label">The Founders</span>
+                <h2>The people behind it</h2>
+            </div>
+
+            <div class="founders-grid">
+                <div class="founder-card">
+                    <div class="founder-photo">
+                        <img src="Shreyash.webp" alt="Shreyash Dwivedi">
+                    </div>
+                    <div class="founder-info">
+                        <span class="founder-role">Founder · EE</span>
+                        <h3>Shreyash Dwivedi</h3>
+                        <p>"Don't just learn how systems work—learn to question them, break them down, and rebuild them better."</p>
+                        <a href="https://sdee001.github.io/Shreyash/" target="_blank" class="project-link">Portfolio ↗</a>
+                    </div>
+                </div>
+
+                <div class="founder-card">
+                    <div class="founder-photo">
+                        <img src="Ratan.webp" alt="Ratandeep Choudhary">
+                    </div>
+                    <div class="founder-info">
+                        <span class="founder-role">Founder · EE</span>
+                        <h3>Ratandeep Choudhary</h3>
+                        <p>"Master the fundamentals—everything else is just an application."</p>
+                        <a href="https://rata0n.github.io/Portfolio/" target="_blank" class="project-link">Portfolio ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recruitment" class="recruitment">
+        <div class="container">
+            <span class="label">Cohort 01 · Filled</span>
+            <h2>Build your<br><em>academic legacy.</em></h2>
+            <p class="recruit-sub">Joining phase is now finished, Thank you to the people who registered.</p>
+
+            <div class="req-grid">
+                <div class="req-block">
+                    <h4>Prerequisites</h4>
+                    <ul>
+                        <li>Curiosity about hardware and systems</li>
+                        <li>Willingness to write and document</li>
+                        <li>10+ hours/week commitment</li>
+                    </ul>
+                </div>
+                <div class="req-block">
+                    <h4>What you'll gain</h4>
+                    <ul>
+                        <li>Your own hosted portfolio site</li>
+                        <li>Under "The Joint Thesis"</li>
+                        <li>Technical writing mentorship</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span class="footer-brand">Phase Shift</span>
+            <span class="footer-copy">© <span id="current-year"></span> · Phase Shift</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
