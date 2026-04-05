@@ -811,7 +811,7 @@ body.dark .early-badge { background: rgba(201,138,78,0.1); border-color: rgba(20
 @media (max-width: 768px) {
     .nav-back { display: none; }
     #back-btn { display: flex; }
-    .hero-layout { grid-template-columns: 1fr; }
-    .hero-photo { width: 140px; height: 168px; }
+    .hero-layout { grid-template-columns: 1fr; gap: 1.5rem; }
+    .hero-photo { width: 240px; height: 320px; order: -1; }
     .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
 }
